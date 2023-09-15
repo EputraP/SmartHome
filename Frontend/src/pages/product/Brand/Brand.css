@@ -1,0 +1,17 @@
+.ant-select-selection-placeholder {
+  display: flex;
+}
+.ant-divider {
+  background-color: black;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-divider-horizontal {
+  margin: 2px 0;
+}
+.ant-form-item .ant-form-item-explain-error {
+  color: #ff4d4f;
+  display: flex;
+}
+:where(.css-dev-only-do-not-override-17a39f8) .ant-upload-list {
+  line-height: 1.5714285714285714;
+  display: none;
+}

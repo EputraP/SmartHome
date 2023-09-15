@@ -1,0 +1,9 @@
+.ant-select-selection-placeholder {
+  display: flex;
+}
+.ant-divider {
+  background-color: black;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-divider-horizontal {
+  margin: 2px 0;
+}

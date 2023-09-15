@@ -1,0 +1,21 @@
+#root {
+  max-width: 1980px;
+  min-width: 1500px;
+  min-height: 1080px;
+  max-height: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.ant-menu-title-content {
+  display: flex;
+}
+
+.ant-menu-item {
+  display: flex;
+}
+.ant-menu-submenu-selected {
+  background-color: #1677ff;
+}

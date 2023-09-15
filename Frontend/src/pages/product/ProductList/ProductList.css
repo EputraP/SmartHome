@@ -1,0 +1,63 @@
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 11px;
+}
+.ant-tabs .ant-tabs-content-holder {
+  flex: auto;
+  min-width: 0;
+  min-height: 0;
+  visibility: hidden;
+}
+
+.container {
+  width: 100%;
+}
+
+.container::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+.button-variant {
+  background-color: transparent;
+  border: none;
+}
+.button-variant:hover {
+  cursor: pointer;
+}
+
+.modal-popup,
+.overlay-modal-popup {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 20;
+}
+
+.overlay-modal-popup {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 12px;
+  max-width: 1400px;
+  min-width: 300px;
+  z-index: 25;
+}
